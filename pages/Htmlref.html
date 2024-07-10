@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elemente</title>
+    <!-- "linked" das "stylesheet" "htmlrefstyle" mit dieser Datei -->
+    <link rel="stylesheet" href="htmlrefstyle.css">
+</head>
+<body>
+    <article>
+        <h1>htmlref</h1>
+        <nav id="mainnav">
+            <h2>Navigation</h2>
+            <ul>
+                <li> <a href="../index.html"> Home </a></li>
+                <li> <a href="jokes.html"> jokes</a></li>
+                <li> <a href="module.html"> Module </a> </li>
+                <li> <a href="Htmlref.html"> htmlref </a> </li>
+                <li> <a href="Formular.html"> Formular </a> </li>
+            </ul>
+        </nav>
+        <!-- verändert die textfarbe mit blau. Diese ignoriert alle anderen methoden und ist sehr spezifisch -->
+        <h2 style="color: blue;">Grundger&uuml;st der HTML Datei</h2>
+        <!-- <pre> zeigt alle umbrüche genau so an wie in dem code -->
+        <pre>
+            <!-- &gt; &lt; wird benutzt um < und > darzustellen -->
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Document&lt;/title&gt;
+            &lt;/head&gt;  
+            &lt;body&gt;
+                
+            &lt;/body&gt;   
+            &lt;/html&gt;
+        </pre>
+        <h2>&Uuml;berschriften</h2>
+        <pre>Ganz grosse &Uuml;berschriften werden mit &lt;h1&gt; dargestellt, ganz kleine
+        &Uuml;berschriften mit &lt;h6&gt; Die Zahlen dazwischen sind ebenfalls m&ouml;glich
+        </pre>
+        <section>
+            <h2>Tabellen</h2>
+        <table class="tabelle">
+            <tr>
+                    <th></th>
+                    <th>JPG</th>
+                    <th>PNG</th>
+                    <th>GIF</th>
+                    <th>SVG</th>
+                    <th>WEBP</th>
+            </tr>
+
+            <tr>
+                    <th>Raster/Vektor</th> <td>Raster</td> <td>Raster</td> <td>Raster</td> <td>Vector</td> <td>Raster/Vector</td>
+            </tr>
+            <tr>
+                <th>Transparenz</th> <td>Nein</td> <td>Ja</td> <td>Ja</td> <td>Ja</td> <td>Ja</td>
+            </tr>
+            <tr>
+                <th>Animierbar</th>
+            </tr>
+            <tr>
+                <th>Kompression</th>
+            </tr>
+            <tr>
+                <th>Farbpalette</th>
+            </tr>
+            <tr>
+                <th>Skalierbarkeit ohne Artefakte</th>
+            </tr>
+            <tr>
+                <th>Einsatzgebiete</th>
+            </tr>
+
+
+
+        </table>
+
+        <div class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+          </div>
+                  
+        </section>
+    </article>
+</body>
+</html>

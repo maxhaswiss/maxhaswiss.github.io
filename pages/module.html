@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <title> Meine Website </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="htmlrefstyle.css">
+    </head>
+    <body>
+        <h1> Meine Website </h1>
+        
+        <nav id="mainnav"> 
+            <!-- "Navigationsmenu" -->
+            <h2> Navigation </h2> 
+        <!-- ungeordnete liste -->
+            <ul>
+            <!-- list items -->
+            <!-- Referenziert auf index.html im Wurzelverzeichnis -->
+                <li> <a href="../index.html"> Home </a></li>
+            <!-- Referenziert auf jokes.html in diesem Ordner -->
+                <li> <a href="jokes.html"> jokes</a></li>
+            <!-- Referenziert auf module.html in diesem Ordner -->
+                <li> <a href="module.html"> Module </a> </li>
+                <li> <a href="Htmlref.html"> Htmlref </a> </li>
+            </ul>
+        </nav>
+       <!-- Hauptteil der Website -->
+       <main>
+        <!-- Artikel optimierung der Formatierung und der Suchmaschine -->
+        <article> 
+            <h2> Modulübersicht </h2>
+            <nav>
+        <!-- ungeordnete liste -->
+            <ul>
+        <!-- list items -->
+            <li><a href="#m106">M106</a></li>
+        <!-- referenzierung auf id m319 -->
+            <li><a href="#m319">M319</a></li>
+            <li><a href="#m293">M293</a></li>
+            </ul>
+            </nav>
+            
+            <!-- Sektion optimierung der Formatierung und der Suchmaschine -->
+            <!-- ids für hyperlinks zur vereinfachung der Navigation -->
+            <section id="m106" class="half">
+                <h2> Modul 106: Daten bearbeiten</h2>
+               <p> In diesem Modul haben wir gelernt, relationale Datenbanken<br> tabellenübergreifend abzufragen, das Sicherheitskonzept von MySQL <br> anzuwenden und Stored Procedures zu erstellen </p>
+            <!-- referenzierung von einer Globalen Internetseite -->
+               <p> weitere infos finden sie <a href="https://www.modulbaukasten.ch/module/106"> hier </a></p>
+            </section>
+            <!-- Sektion optimierung der Formatierung und der Suchmaschine -->
+            <section id="m319" class="half">
+                <h2>Modul 319: Prozedurale Programmierung</h2>
+                <p>Die Lernenden kennen die Grundlagen des Programmierens, deren Herkunft,<br> ihrer Voraussetzungen und sind in der Lage im Beruflichen Umfeld<br> Probleme zu verstehen und Lösungen dafür zu entwickeln.</p>
+                <!-- geordnete liste -->
+                <ol> 
+                    <!-- list items -->
+                        <li>Einführung Java mit Processing</li>
+                        <li>Fibonacci, plus, minus, multiplikation und division in java</li>
+                    </ol>
+            </section>
+            <!-- Sektion optimierung der Formatierung und der Suchmaschine -->
+            <section id="m293" class="half">
+                <h2> Modul 293: Webauftritt erstellen </h2>
+                <p> Webauftritt mit verschiedenen Elementen <br>(bspw. Text, Grafik, Animation, Links) und ohne Server-/Clientseitige Programmierung.<br> Zum Beispiel: Webauftritt für einen kleinen Verein. </p>
+                <!-- geordnete liste -->
+                <ol> 
+                <!-- list items -->
+                    <li>einführung HTML und Webseitenabruf</li>
+                    <li>HTML 5 Elemente und Listen</li>
+                    <li>hab was vergessen</li>
+                    <li>ZP, CSS</li>
+                </ol>
+            </section>
+            <!-- fusszeile für Impressum, AGBs usw. -->
+            <footer>
+                <h3> Impressum </h3>
+            </footer>
+        </article>
+    </main>
+    </body>
+
+    </html>

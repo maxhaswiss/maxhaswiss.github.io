@@ -1,0 +1,115 @@
+/* ändert die hintergrundfarbe des <body> element mit rgb (rot, grün, blau) diese sind 3*8 bit also bis 255*/
+body {
+    
+    background-image: url("../img/leandro_2_real.jpg") ;
+    background-color: rgba(40, 40, 40, 0.5);
+    background-size: 100%;
+}
+/* ändert die textfarbe im <nav> element in gelb  */
+nav {color: yellow;}
+/* ändert die textfarbe im <pre> element in grün */
+pre {
+    color: greenyellow; font-size: 1.2em;
+}
+/* mit , kann man mehrere sachen gleichzeitig ändern */
+h1,h2,h3,h4  {
+    color:white;
+}
+section {
+    color:rgb(200, 200, 255);
+}
+article {
+    background-color: green;
+}
+#mainnav ul {
+    padding-left: auto;
+    text-align: center;
+}
+#mainnav {
+    padding-left: auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    }
+    #mainnav ul li {color: rgb(0, 255, 106); 
+        display: inline-block; }
+    #mainnav ul li a {
+        display: block;
+        margin: 0px 5px 0px 5px;
+        color: white;
+        border: 3px solid rgb(0, 255, 106);
+        padding: 10px;
+    }
+h1 {
+    font-variant: small-caps;
+}
+p {
+    font-size: 14px;
+}
+
+header, article, footer pre {
+    width: 80%;
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+section.half {
+    width: 50%;
+    margin: 25px;
+    padding: 0px;
+    border: 0px;
+}
+.tabelle tr, th {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width : 600px ){
+    pre {
+        overflow-y: visible; 
+        overflow-x: scroll;
+        font-size: 14px;
+        width: 80%;
+    }
+    .tabelle tr, th {
+        padding: 8px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .tabelle tbody{
+        width: 100px;
+        height: 100px;
+    }
+    section.half{   
+        width: 80%;
+    }
+    article.Buerowitze {
+        font-size: 20px;
+        color:rgb(206, 255, 226);
+    }
+    .Formular {
+        font-size: 20px;
+    }
+    .Formular label{
+        margin-right: 40px;
+        text-align: right;
+    }
+    fieldset.Formular {
+        width: 70%
+    }
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item {
+    flex-grow: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+  }
